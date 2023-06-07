@@ -1,0 +1,166 @@
+html {
+    padding: 0 200px 0 200px;
+    background-color: #FFFFFF;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background: #111111;
+    position: relative;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+}
+
+button {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 56px;
+    padding: 30px 54px 0 0;
+}
+
+header img {
+    position: absolute;
+    left: 77px;
+    top: 44px;
+    width: 66px;
+    height: 67px;
+}
+
+header a {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 18.96px;
+    color: #818487;
+    text-decoration: none;
+}
+
+a:nth-of-type(0n+1),:nth-of-type(0n+4) {
+    padding-bottom: 8px;
+}
+
+.sign {
+    background: #279DE0;
+    border-radius: 7px;
+    border: none;
+    width: 111px;
+    height: 34px;
+    cursor: pointer;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: .975rem;
+    line-height: 18px;
+}
+
+.sign:hover {
+    background-color: #45b3f3;
+}
+
+
+.presentation {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    padding: 166px 13px 64px 56px;
+
+}
+
+.presentation-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.presentation h2 {
+    margin: 0;
+    max-width: 646px;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 76px;
+}
+
+.presentation h3 {
+    margin: 0;
+    max-width: 475px;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 32px;
+}
+
+.presentation-img {
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    max-width: 812px;
+    max-height: 627px;
+
+}
+
+.company {
+    display: flex;
+    gap: 23px;
+}
+
+.company img {
+    max-width: 86px;
+    max-height: 34px;
+}
+
+.buttons-play {
+    display: flex;
+    gap: 26px;
+}
+
+.started {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 19px;
+    background: #3880D0;
+    border-radius: 7px;
+    width: 202px;
+    height: 56px;
+    border: none;
+
+}
+
+.play {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    gap: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.play img {
+    border-radius: 50%;
+    border: 1px solid #3880D0;
+    padding: 12px;
+    width: 20px;
+    height: 18px;
+}
+
+.company-container {
+    padding-left: 56px;
+}
+
+.company-container h2 {
+    color: #79797A;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 21px;
+    padding-bottom: 32px;
+}
