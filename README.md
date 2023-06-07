@@ -1,2 +1,2 @@
 # desafio-front-end
-desafio escola tecnica ETE- Arcoverde
+desafio front-end escola tecnica ETE- Arcoverde
